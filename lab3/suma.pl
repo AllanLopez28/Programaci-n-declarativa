@@ -1,9 +1,3 @@
-% ============================================================
-% Ejercicio: Dado un numero N, sumar N con todos los numeros
-% anteriores hasta llegar a 1.   suma(N) = N + (N-1) + ... + 1
-% ============================================================
-
-% Caso base: la suma hasta 1 es 1.
 suma(1, 1).
 
 % Caso recursivo: suma(N) = N + suma(N-1), para N > 1.
